@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Help The Cashier</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body>
+    <div class="main_container">
+        <h1>Help the Cashier Fun Project 1</h1>
+        <div class="main_container" style="width: 87%; height: 75%;">
+            <div class="io_container">
+                <div id="show_return" style="position: absolute; right: 0; text-align: left">
+
+                </div>
+            <div>
+                <img id="logo" class="logo" src="logo.jpg" alt="cashier image">
+                <form onsubmit="computeChange(event)">
+                    <input id="due" type="number" step="0.01" placeholder="amount due in sgd"> <br>
+                    <input id="paid" type="number" placeholder="amount paid in sgd"> <br>
+                    <input class="submit_btn" type="submit" value="Compute Change"> <br>
+                </form>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script> 
+</body>
+</html>

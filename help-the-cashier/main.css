@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    margin-top: 3px;
+    text-decoration: underline;
+    font-family: cursive;
+    color: red;
+    text-shadow: 0 0 5px blue
+}
+input{
+    margin: 5px;
+    border: 1px solid;
+    border-radius: 3px;
+}
+form{
+    margin-top: -125px;
+}
+.main_container{
+    text-align: center;
+    position: fixed;
+    width: 92%;
+    padding: 2.5%;
+    height: 92%;
+    border: 0.5px solid gray;
+    border-radius: 5px;
+    overflow: auto;
+}
+.logo{
+    height: 400px;
+}
