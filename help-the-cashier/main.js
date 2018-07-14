@@ -32,6 +32,7 @@ function computeChange(e){
     }
     to_return[to_return.length-1] = 'and ' + to_return[to_return.length-1]
     console.log(to_return);
+    document.getElementById('show_return').innerHTML=''; 
     var p = document.createElement('p')
     p.innerHTML = '<b>Please return ...  </b>'
     document.getElementById('show_return').appendChild(p); 
