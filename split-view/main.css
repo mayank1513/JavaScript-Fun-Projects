@@ -1,0 +1,31 @@
+button{
+    position: fixed;
+    top: 2%; right: 2%;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.container{
+    position: fixed;
+    top: 1%; left: 1%;
+    height: 98%;
+    width: 98%;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+#split1, #split2{
+    position: fixed;
+    top: 2%; left: 2%;
+    height: 96%;
+    width: 47.5%;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+#divider{
+    position: fixed;
+    top: 2%;
+    height: 96%;
+    left: 49.5%; width: 1%;
+    cursor: col-resize;
+}
