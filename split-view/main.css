@@ -1,3 +1,6 @@
+img{
+    width: 100%
+}
 button{
     position: fixed;
     top: 2%; right: 2%;
@@ -20,6 +23,8 @@ button{
     width: 47.5%;
     border: 1px solid gray;
     border-radius: 5px;
+    text-align: center;
+    overflow: auto;
 }
 
 #divider{
@@ -28,4 +33,15 @@ button{
     height: 96%;
     left: 49.5%; width: 1%;
     cursor: col-resize;
+}
+
+#slider1, #slider2{
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 100px;
+    height: 3px;
+    background-color: burlywood;
+    border: 1px solid gray;
+    border-radius: 5px;
 }

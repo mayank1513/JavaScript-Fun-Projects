@@ -1,9 +1,18 @@
 var splitHorizontal = true;
 
+document.getElementById('slider1').oninput = function(){
+    document.getElementById('img1').style.width = 100*Math.exp(this.value) + '%';
+}
+
+document.getElementById('slider2').oninput = function(){
+    document.getElementById('img2').style.width = 100*Math.exp(this.value) + '%';
+}
+
 document.getElementById('divider').addEventListener('mousedown', function(e){
     document.addEventListener('mousemove', mouseMove)
     document.addEventListener('mouseup', mouseUp)
 })
+
 mouseMove = function(e){
     if(splitHorizontal){
         split1 = document.getElementById('split1');
